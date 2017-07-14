@@ -7,9 +7,9 @@ def is_valid_email?(email)
   email =~ VALID_EMAIL_REGEX
 end
 
-p is_valid_email?("sergioarav@gmail.com") ? "Valid" : "Invalid"
-p is_valid_email?("sergioaravgmail.com") ? "Valid" : "Invalid"
-p is_valid_email?("sergio.arav@gmail.com") ? "Valid" : "Invalid"
-p is_valid_email?("sergioarav@gmail") ? "Valid" : "Invalid"
-p is_valid_email?("sergio_arav@gmail.net") ? "Valid" : "Invalid"
-p is_valid_email?("sergio_arav@gmail.io") ? "Valid" : "Invalid"
+p is_valid_email?("titovilla@gmail.com") ? "Valid" : "Invalid"
+p is_valid_email?("titovillagmail.com") ? "Valid" : "Invalid"
+p is_valid_email?("tito.villa@gmail.com") ? "Valid" : "Invalid"
+p is_valid_email?("titovilla@gmail") ? "Valid" : "Invalid"
+p is_valid_email?("tito_villa@gmail.net") ? "Valid" : "Invalid"
+p is_valid_email?("tito_villa@gmail.io") ? "Valid" : "Invalid"
